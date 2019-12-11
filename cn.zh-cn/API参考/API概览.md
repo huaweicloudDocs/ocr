@@ -31,9 +31,9 @@
 <td class="cellrowborder" valign="top" width="76.02%" headers="mcps1.2.3.1.2 "><p id="p24399514525"><a name="p24399514525"></a><a name="p24399514525"></a>检测定位图片上指定要识别的票证（票据、证件或其他文字载体），并对其进行结构化识别。</p>
 </td>
 </tr>
-<tr id="row11265163517218"><td class="cellrowborder" valign="top" width="23.98%" headers="mcps1.2.3.1.1 "><p id="p5785335164910"><a name="p5785335164910"></a><a name="p5785335164910"></a><a href="手写字母数字识别.md">手写字母数字识别</a></p>
+<tr id="row11265163517218"><td class="cellrowborder" valign="top" width="23.98%" headers="mcps1.2.3.1.1 "><p id="p5785335164910"><a name="p5785335164910"></a><a name="p5785335164910"></a><a href="手写文字识别.md">手写文字识别</a></p>
 </td>
-<td class="cellrowborder" valign="top" width="76.02%" headers="mcps1.2.3.1.2 "><p id="p14785173594916"><a name="p14785173594916"></a><a name="p14785173594916"></a>识别用户上传的手写字母数字图片（或者用户提供的华为云上OBS的图片文件的URL）中的字母数字内容。</p>
+<td class="cellrowborder" valign="top" width="76.02%" headers="mcps1.2.3.1.2 "><p id="p14785173594916"><a name="p14785173594916"></a><a name="p14785173594916"></a>识别用户上传的手写文字图片（或者用户提供的华为云上OBS的图片文件的URL）中的文字内容。</p>
 </td>
 </tr>
 <tr id="row13197183161311"><td class="cellrowborder" valign="top" width="23.98%" headers="mcps1.2.3.1.1 "><p id="p14921101319137"><a name="p14921101319137"></a><a name="p14921101319137"></a><a href="身份证识别.md">身份证识别</a></p>
