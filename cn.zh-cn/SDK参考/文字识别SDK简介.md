@@ -43,7 +43,7 @@
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p1211192217512"><a name="p1211192217512"></a><a name="p1211192217512"></a>POST /v1.0/ocr/auto-classification</p>
 </td>
 </tr>
-<tr id="row76131749367"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p339115591469"><a name="p339115591469"></a><a name="p339115591469"></a>手写字母数字识别</p>
+<tr id="row76131749367"><td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.1 "><p id="p339115591469"><a name="p339115591469"></a><a name="p339115591469"></a>手写文字识别</p>
 </td>
 <td class="cellrowborder" valign="top" width="50%" headers="mcps1.2.3.1.2 "><p id="p139185914610"><a name="p139185914610"></a><a name="p139185914610"></a>POST /v1.0/ocr/handwriting</p>
 </td>
