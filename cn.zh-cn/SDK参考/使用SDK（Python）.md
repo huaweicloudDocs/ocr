@@ -14,15 +14,14 @@
 1.  获取AK/SK，具体步骤请参见[认证鉴权\>AK/SK认证](https://support.huaweicloud.com/api-ocr/ocr_03_0005.html#section1)。
 2.  配置Python SDK的AK/SK。
 
-    根据获取的AK/SK，修改Demo工程“OCRDemo.py”文件中的“AK”和“SK”的值，请参见[图1](#fig13342818339)。
+    根据获取的AK/SK，修改Demo工程“OCRDemo.py”文件中aksk\_request函数的“AK”和“SK”的值，请参见[图1](#fig13342818339)。
 
-    **图 1**  Python SDK中的OCRDemo.py文件<a name="fig13342818339"></a>  
-    ![](figures/Python-SDK中的OCRDemo-py文件.png "Python-SDK中的OCRDemo-py文件")
+    **图 1**  修改OCRDemo.py文件参数<a name="fig13342818339"></a>  
+    ![](figures/修改OCRDemo-py文件参数.png "修改OCRDemo-py文件参数")
 
-3.  如使用本地图片文件进行识别，修改OCRDemo.py文件参数为本地图片路径，请参见[图2](#ref501704969)。如使用SDK默认图片则不需要进行修改。
+3.  修改输入参数。
 
-    **图 2**  Python SDK入参数据路径<a name="ref501704969"></a>  
-    ![](figures/Python-SDK入参数据路径.png "Python-SDK入参数据路径")
+    如使用本地图片文件进行识别，修改OCRDemo.py文件参数“img\_path”为本地图片路径，请参见[图1](#fig13342818339)。如使用SDK默认图片则不需要进行修改。
 
 4.  执行OCRDemo.py文件，控制台输出200即表示程序执行成功。身份证服务的结果可以采用json编辑器展示。
 
@@ -40,17 +39,17 @@
     ```
 
     >![](public_sys-resources/icon-note.gif) **说明：**   
-    >如想调用OCR其他识别服务，只需要把requestOcrServiceBase64函数的第一个参数改成对应的URI即可。URI列表请参见[表1 接口与API对应关系表](文字识别SDK简介.md#table47650414583)。  
+    >如想调用OCR其他识别服务，只需要把aksk\_request函数的"req\_uri"参数改成对应的URI即可。URI列表请参见[表1 接口与API对应关系表](文字识别SDK简介.md#table47650414583)。  
 
 
 ## Token认证方式<a name="section10576225195619"></a>
 
 本节以身份证识别服务为例介绍如何以Token认证方式使用SDK。
 
-1.  打开OCRDemo.py文件，修改main函数中的username、password和domain\_name为系统中实际注册的用户名、密码和域名（如果用户为非IAM用户，域名与用户名一致），请参见[图3](#fig55543468)。
+1.  打开OCRDemo.py文件，修改token\_request函数中的username、password和domain\_name为系统中实际注册的用户名、密码和账号名（如果用户为非IAM用户，账号名与用户名一致），请参见[图2](#fig55543468)。
 
-    **图 3**  修改OCRDemo.py用户名、密码和域名<a name="fig55543468"></a>  
-    ![](figures/修改OCRDemo-py用户名-密码和域名.png "修改OCRDemo-py用户名-密码和域名")
+    **图 2**  修改OCRDemo.py文件中的用户名、密码和账号名<a name="fig55543468"></a>  
+    ![](figures/修改OCRDemo-py文件中的用户名-密码和账号名.png "修改OCRDemo-py文件中的用户名-密码和账号名")
 
 2.  直接执行相应代码，在控制台可看到使用Token方式身份证识别服务的识别结果。
 
