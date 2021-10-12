@@ -35,7 +35,7 @@
 
 以下步骤以win7环境配置JDK8 64位为例，已经下载JDK并配置好环境请跳过步骤1-4。以eclipse工具为例给出文字识别服务SDK工程导入步骤，如果使用其他IDE工具，请参照处理。
 
-1.  下载JDK文件：[https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)。
+1.  [下载JDK文件](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)。
 2.  下载完成后按照提示安装，位置自选，例如安装到本地C:\\Program Files\\Java\\jdk1.8.0\_131。
 3.  配置Java环境变量：右键“计算机\>属性\>高级系统设置\>环境变量”，进行如下操作。
     1.  新建系统变量JAVA\_HOME，变量值为实际JDK安装位置。
@@ -46,10 +46,18 @@
     **图 1**  Java版本信息<a name="fig9887837131416"></a>  
     ![](figures/Java版本信息.png "Java版本信息")
 
-5.  Eclipse安装，在[https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/  )下载对应平台的eclipse版本，比如：eclipse-jee-mars-R-win32-x86\_64.zip。解压后直接打开eclipse。确保“Window\>Preferences\>Java\>Installed JREs”配置正确的JRE路径。
-6.  JAVA SDK工程导入，在左侧“Package Explorer”页面右键，单击“Import”，选择“General\>Existing Projects into Workspace”，单击“Next”，单击“Browse”，选择文字识别服务SDK包所在路径。单击Finish，导入demo，导入后打开工程，工程目录如下：
+5.  Eclipse安装。
 
-    **图 2**  工程目录<a name="fig145637035217"></a>  
-    ![](figures/工程目录.png "工程目录")
+    在[https://www.eclipse.org/downloads/packages/](https://www.eclipse.org/downloads/packages/  )下载对应平台的eclipse版本，比如：eclipse-jee-mars-R-win32-x86\_64.zip。解压后直接打开eclipse。确保“Window\>Preferences\>Java\>Installed JREs”配置正确的JRE路径。
+
+6.  JAVA SDK工程导入。
+    1.  在左侧“Package Explorer”页面右键，单击“Import”。
+    2.  选择“General\>Existing Projects into Workspace”。
+    3.  单击“Next”，选择Maven依赖模式、选择文字识别服务SDK Demo包所在路径。
+    4.  单击“Finish“，导入demo，导入后打开工程，工程目录如下。
+
+        **图 2**  工程目录<a name="fig11603142105612"></a>  
+        ![](figures/工程目录.png "工程目录")
+
 
 

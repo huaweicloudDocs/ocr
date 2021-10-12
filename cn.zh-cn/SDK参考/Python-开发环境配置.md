@@ -43,7 +43,7 @@
     **图 1**  Python版本信息<a name="fig650192210132"></a>  
     ![](figures/Python版本信息.png "Python版本信息")
 
-5.  通过PIP在线安装依赖包requests, 在新打开的CMD窗口执行如下命令：
+5.  通过PIP在线安装依赖包requests, 在新打开的CMD窗口执行如下命令。
 
     ```
     pip install -i https://pypi.tuna.tsinghua.edu.cn/simple requests --trusted-host https://pypi.tuna.tsinghua.edu.cn/simple

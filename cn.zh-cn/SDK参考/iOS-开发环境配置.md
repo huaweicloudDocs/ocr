@@ -32,5 +32,5 @@ Xcode是iOS开发的IDE必不可少，以下为步骤以安装Xcode 10.0为例�
 
 1.  注册Apple ID。
 2.  在App Store搜索Xcode，单击“获取”下载。
-3.  下载完成之后点击Lanchpad，可以看到Xcode，打开即可。
+3.  下载完成之后单击Lanchpad，可以看到Xcode，打开即可。
 
